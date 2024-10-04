@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crousel</title>
+    <link rel="stylesheet" href="crousel.css">
+
+</head>
+<body>
+    <section class="crousel-group spaces transformed">
+        <h2 class="crousel_heading">Explore Real Spaces We've Transformed</h2>
+        <div class="outer">
+         <div class="spaces-transformed" id="spaces-transformed">
+             <div class="crousel-img">
+              <img src="img/gallery_image_1.png" alt="">
+             </div>
+            <div class="crousel-img">
+            <img src="img/gallery_image_2.png" alt="">
+            </div>
+            <div class="crousel-img">
+            <img src="img/gallery_image_3.png" alt="">
+           </div>
+           <div class="crousel-img">
+            <img src="img/gallery_image_1.png" alt="">
+           </div>
+        </div>
+        </div>
+        <div class="arrow-btn-group">
+        <button class="arrow-btn" onclick="leftScroll()"><img src="img/arrow-left.svg" alt=""></button>
+        <button class="arrow-btn" onclick="rightScroll()"><img src="img/arrow-right (1).svg" alt=""></button>
+       </div>
+    </section>
+
+
+
+
+    <!-- shop by category -->
+    <section class="shop_by_category">
+        <div class="shop_by_category_heading">
+            <h1>Shop by Category</h1>
+            <h4>Explore by <span class="span">Categories</span> so that its easy for both of us</h4>
+        </div>
+        <div class="shop_by_category_outer">
+        <div class="category-tiles-group" id="category-tiles-group">
+            <!-- category-1 -->
+            <div class="category-tile">
+                <img src="img/category1.png" alt="">
+                <h4>Floor Tiles</h4>
+            </div>
+            <!-- category-2 -->
+            <div class="category-tile">
+                <img src="img/category2.png" alt="">
+                <h4>Backsplash Tiles</h4>
+            </div>
+            <!-- category-3 -->
+            <div class="category-tile">
+                <img src="img/category3.png" alt="">
+                <h4>Decorative Tiles</h4>
+            </div>
+            <!-- category-4 -->
+            <div class="category-tile">
+                <img src="img/category4.png" alt="">
+                <h4>Kitchen Tiles</h4>
+            </div>
+            <!-- category-5 -->
+            <div class="category-tile">
+                <img src="img/category5.png" alt="">
+                <h4>Bathroom</h4>
+            </div>
+            <!-- category-6-->
+            <div class="category-tile">
+                <img src="img/category6.png" alt="">
+                <h4>Sample collection</h4>
+            </div>
+            <!-- category-1 -->
+            <div class="category-tile">
+                <img src="img/category1.png" alt="">
+                <h4>Floor Tiles</h4>
+            </div>
+            <!-- category-2 -->
+            <div class="category-tile">
+                <img src="img/category2.png" alt="">
+                <h4>Backsplash Tiles</h4>
+            </div>
+            <!-- category-3 -->
+            <div class="category-tile">
+                <img src="img/category3.png" alt="">
+                <h4>Decorative Tiles</h4>
+            </div>
+            <!-- category-4 -->
+            <div class="category-tile">
+                <img src="img/category4.png" alt="">
+                <h4>Kitchen Tiles</h4>
+            </div>
+            <!-- category-5 -->
+            <div class="category-tile">
+                <img src="img/category5.png" alt="">
+                <h4>Bathroom</h4>
+            </div>
+            <!-- category-6-->
+            <div class="category-tile">
+                <img src="img/category6.png" alt="">
+                <h4>Sample collection</h4>
+            </div>
+        </div>
+        </div>
+        <div class="arrow-btn-group">
+            <button class="arrow-btn" onclick="categoryLeftScroll()"><img src="img/arrow-left.svg" alt=""></button>
+            <button class="arrow-btn" onclick="categoryRightScroll()"><img src="img/arrow-right (1).svg" alt=""></button>
+        </div>
+        <button class="primary-btn" id="view-all"><a href="">View All  <img src="img/right_up_arrow.png"  id="arrow-right"   alt=""></a></button>
+    </section>
+
+
+    <!-- clients review -->
+<section class="clients-feedback">
+    <div class="clients-feedback-heading">
+            <h2>Happy Clients. with Beautiful Walls</h2>
+            <p>Our customers love us for our service . We are dedicated to providing outstanding service from selection to installation.</p>
+    </div>
+    <div class="clients-feedback-card-group-outer">
+        <div class="clients-feedback-card-group" id="clients-feedback-card-group">
+                <!-- clients feedback card  1-->
+            <div class="clients-feedback-card" >
+                    <div class="client-feedback-star-icons">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 5.png" alt="">
+                    </div> 
+                    <div class="feedback-text">
+                        <p>I can’t believe how great my 3D renderings looked! Susan completely understood what I wanted and got every little detail of my online interior design just perfect</p>
+                        <div class="feedback-card-footer">
+                            <img src="img/client1.png" alt="">
+                            <div class="feedback-card-footer-text">
+                                <h4>Sara Patterson</h4>
+                                <h5>Los anglesa, NY</h5>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                <!-- clients feedback card 2 -->
+                <div class="clients-feedback-card" id="feedback-card">
+                    <div class="client-feedback-star-icons">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 5.png" alt="">
+                    </div> 
+                    <div class="feedback-text" id="feedback-text">
+                        <p>Absolutely thrilled with the quality and design of the tiles we purchased. The service was exceptional!</p>
+                        <div class="feedback-card-footer">
+                                <img src="img/client2.png" alt="">
+                                    <div class="feedback-card-footer-text">
+                                        <h4>Jane D</h4>
+                                        <h5>Los anglesa, NY</h5>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- clients feedback card 3 -->
+                <div class="clients-feedback-card">
+                    <div class="client-feedback-star-icons">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 1.png" alt="">
+                        <img src="img/Star 5.png" alt="">
+                    </div> 
+                    <div class="feedback-text">
+                        <p>I can’t believe how great my 3D renderings looked! Susan completely understood what I wanted and got every little detail of my online interior design just perfect</p>
+                            <div class="feedback-card-footer">
+                                <img src="img/client3.png" alt="">
+                                <div class="feedback-card-footer-text">
+                                    <h4>Sara Patterson</h4>
+                                    <h5>Los anglesa, NY</h5>
+                                </div>
+                            </div>
+                    </div>
+                </div>  
+ <!-- clients feedback card  1-->
+ <div class="clients-feedback-card" id="clients-feedback-card">
+    <div class="client-feedback-star-icons">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 5.png" alt="">
+    </div> 
+    <div class="feedback-text">
+        <p>I can’t believe how great my 3D renderings looked! Susan completely understood what I wanted and got every little detail of my online interior design just perfect</p>
+        <div class="feedback-card-footer">
+            <img src="img/client1.png" alt="">
+            <div class="feedback-card-footer-text">
+                <h4>Sara Patterson</h4>
+                <h5>Los anglesa, NY</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- clients feedback card 2 -->
+<div class="clients-feedback-card" id="feedback-card">
+    <div class="client-feedback-star-icons">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 5.png" alt="">
+    </div> 
+    <div class="feedback-text" id="feedback-text">
+        <p>Absolutely thrilled with the quality and design of the tiles we purchased. The service was exceptional!</p>
+        <div class="feedback-card-footer">
+                <img src="img/client2.png" alt="">
+                    <div class="feedback-card-footer-text">
+                        <h4>Jane D</h4>
+                        <h5>Los anglesa, NY</h5>
+                    </div>
+        </div>
+    </div>
+</div>
+<!-- clients feedback card 3 -->
+<div class="clients-feedback-card">
+    <div class="client-feedback-star-icons">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 1.png" alt="">
+        <img src="img/Star 5.png" alt="">
+    </div> 
+    <div class="feedback-text">
+        <p>I can’t believe how great my 3D renderings looked! Susan completely understood what I wanted and got every little detail of my online interior design just perfect</p>
+            <div class="feedback-card-footer">
+                <img src="img/client3.png" alt="">
+                <div class="feedback-card-footer-text">
+                    <h4>Sara Patterson</h4>
+                    <h5>Los anglesa, NY</h5>
+                </div>
+            </div>
+    </div>
+</div>  
+            
+        </div>
+    </div>
+    <div class="arrow-btn-group">
+        <button class="arrow-btn" onclick="feedbackLeftScroll()"><img src="img/arrow-left.svg" alt=""></button>
+        <button class="arrow-btn" onclick="feedbackRightScroll()"><img src="img/arrow-right (1).svg" alt=""></button>
+    </div>
+</section>
+
+
+
+  <script>
+    // spaces transfoemed
+    function leftScroll(){
+        let container=document.querySelector("#spaces-transformed");
+        container.scrollTo({
+        top: 0,
+        left:container.scrollLeft -200, 
+        behavior: 'smooth'
+       
+    });
+  }
+    function rightScroll(){
+        let container=document.querySelector("#spaces-transformed");
+        container.scrollTo({
+        top: 0,
+        left: container.scrollLeft +200, 
+        behavior: 'smooth'
+       
+    });
+    }
+
+    //category 
+    function categoryLeftScroll(){
+        let container=document.querySelector("#category-tiles-group");
+        container.scrollTo({
+        top: 0,
+        left:container.scrollLeft -200, 
+        behavior: 'smooth'
+        
+    });
+  }
+
+    function categoryRightScroll(){
+        let container=document.querySelector("#category-tiles-group");
+        container.scrollTo({
+        top: 0,
+        left: container.scrollLeft +200, 
+        behavior: 'smooth'
+       
+      });
+    }
+    //  clients feedback
+    function feedbackLeftScroll(){
+        let container=document.querySelector("#clients-feedback-card-group");
+        container.scrollTo({
+        top: 0,
+        left:container.scrollLeft -200, 
+        behavior: 'smooth'
+        
+     });
+    }
+
+    function feedbackRightScroll(){
+        let container=document.querySelector("#clients-feedback-card-group");
+        container.scrollTo({
+        top: 0,
+        left: container.scrollLeft +200, 
+        behavior: 'smooth'
+       
+       });
+     }
+
+  </script>
+</body>
+</html>

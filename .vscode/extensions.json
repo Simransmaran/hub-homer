@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "rifi2k.format-html-in-php",
+        "shufo.vscode-blade-formatter",
+        "austenc.laravel-blade-spacer",
+        "glitchbl.laravel-create-view",
+        "mrchetan.laravel-goto-config"
+    ]
+}

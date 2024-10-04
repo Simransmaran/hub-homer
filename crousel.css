@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff574a;
+}
+/* .crousel-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+} */
+.spaces-transformed {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  /* scrollbar-width: thin;
+    scrollbar-color: #FF574A; */
+  flex-wrap: nowrap;
+  padding: 40px 0 20px;
+}
+.card {
+  min-height: 467px;
+}
+.card img {
+  max-width: 100%;
+}
+.crousel_heading {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 700;
+}
+.arrow-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 20px 40px;
+  gap: 10px;
+  width: 100%;
+}
+.arrow-btn {
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 5px;
+  color: #27363b;
+}
+/* shop by category */
+.shop_by_category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 80px 0;
+}
+.shop_by_category_heading {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.shop_by_category_heading h1 {
+  font-size: 58px;
+  font-weight: 700;
+  text-align: center;
+}
+.shop_by_category_heading h4 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.shop_by_category_heading .span {
+  color: #ff574a;
+}
+.category-tiles-group {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(12, 1fr);
+  overflow-x: scroll;
+  width: 100%;
+}
+.shop_by_category_outer {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0px 90px;
+  margin: 0 auto;
+}
+
+.category-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  font-size: 19px;
+  color: #27363b;
+  margin-bottom: 50px;
+}
+.primary-btn {
+  background-color: #ff574a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 8px;
+  border-radius: 29px;
+  border: none;
+  padding: 8px 18px;
+}
+#view-all a {
+  color: var(--text-color1);
+  text-decoration: none;
+}
+/* clients Feedback */
+.clients-feedback {
+  gap: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+.clients-feedback-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+.clients-feedback-heading h2 {
+  font-size: 58px;
+  font-weight: 700;
+  text-align: center;
+  color: #27363b;
+}
+.clients-feedback-heading p {
+  text-transform: capitalize;
+}
+.clients-feedback-card-group-outer {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0px 40px;
+  margin: 0 auto;
+}
+
+.clients-feedback-card-group {
+  display: flex;
+  gap: 25px;
+  overflow-x: scroll;
+  width: 100%;
+}
+.clients-feedback-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 457px;
+  min-height: 365px;
+  border: 1px solid #d7d7d7;
+  border-radius: 25px;
+  padding: 33px 46px;
+  margin-bottom: 60px;
+}
+#feedback-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 407px;
+  padding: 5px 5px;
+  border: 1px solid #d7d7d7;
+  border-radius: 25px;
+  padding: 33px 46px;
+  /* gap: 16px; */
+}
+#feedback-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: space-between;
+  min-height: 270px;
+}
+
+.feedback-text p {
+  width: 350px;
+  font-size: 18px;
+  color: #323232;
+  line-height: 30px;
+}
+.feedback-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.feedback-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.feedback-card-footer-text h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #323232;
+}
+.feedback-card-footer-text h5 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #b4b4b4;
+}
